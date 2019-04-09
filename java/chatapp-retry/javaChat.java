@@ -28,7 +28,7 @@ public class javaChat {
     * Replace connection string from the Azure Cosmos DB Portal
     */
     private static ConnectionString connectionString = 
-        new ConnectionString("mongodb://azure-learn-mongo:WBqJkUXSYZwJEPZuckaLokaTD4bJR6L1CZaAjHBUAgbUzXcvmZvWs7w6LsOW6mSu8excGmX2fQT2oUadj0IDWw==@azure-learn-mongo.documents.azure.com:10255/?ssl=true&replicaSet=globaldb");
+        new ConnectionString("Enter MongoDB connection string here");
     private static String dbName = "chat-app";
     private static String colName = "messages"; 
 
