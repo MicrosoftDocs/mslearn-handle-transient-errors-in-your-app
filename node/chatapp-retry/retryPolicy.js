@@ -1,6 +1,7 @@
 var method = retryPolicy.prototype;
 var config = require('./appsettings.json');
-const shared = new Int32Array(new SharedArrayBuffer(4));
+var sleep = require('system-sleep');
+const shared = new Int32Array(new ArrayBuffer(4));
 
 // Constructor
 function retryPolicy() {
@@ -14,7 +15,7 @@ method.checkRetries = function() {
     // Use a delay if this isn't the first try
     if (this._currentTries != 1)
     {
-        Atomics.wait(shared, 0, 0, config.delay);
+        sleep(config.delay);
     }
 
     if (this._currentTries < config.number_of_retries) {

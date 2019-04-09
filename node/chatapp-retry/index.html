@@ -29,7 +29,7 @@
             </form> 
         </div>
         <div class="row">
-            <div id="messages">Loading chat board...</div>
+            <div id="messages">Chat Board:</div>
         </div>
     </div>
     <script>
@@ -44,7 +44,7 @@
         })
 
         function addMessage(message){
-            $("#messages").append('<h4>' + message.name +  '</h4><p>' + message.message + '</p>')
+            $("#messages").append('<h4>Name: ' + message.name +  '</h4><p>Message: ' + message.message + '</p>')
         }
 
         function clearMessages(){
