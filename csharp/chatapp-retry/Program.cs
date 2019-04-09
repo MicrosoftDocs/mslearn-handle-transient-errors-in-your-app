@@ -17,9 +17,8 @@ namespace csharp_chatapp_retry
         private static IMongoCollection<ChatMessage> messages;
         private static string databaseName = "chat-app";
         private static string collectionName = "messages";
-        private static string connectionString = 
-            @"mongodb://learn-cosmos-db-16625:frbBzXfK3Qyr4jQXKHNJxeTKdof2BIFX8EYE4mHhH21JQg0WNGz7Khwd8TLlItWwpnsHSSSxvUa7LtZkNe1Baw==@learn-cosmos-db-16625.documents.azure.com:10255/?ssl=true";
-
+        private static string connectionString = @"<enter cosmos db connection string here>";
+        
         private static List<ChatMessage> allMessages = new List<ChatMessage>();
 
         static void Main(string[] args)

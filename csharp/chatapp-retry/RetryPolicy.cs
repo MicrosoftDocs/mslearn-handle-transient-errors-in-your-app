@@ -46,7 +46,7 @@ namespace csharp_chatapp_retry
             }
         }
 
-        public void ResetRetries()
+        public void Reset()
         {
             currentTries = 0;
         }
