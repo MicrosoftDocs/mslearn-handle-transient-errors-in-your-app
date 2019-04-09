@@ -1,5 +1,3 @@
-package learn.javachatapp;
-
 import org.bson.Document;
 import org.bson.types.ObjectId;
 import com.mongodb.*;
@@ -112,7 +110,7 @@ public class javaChat {
 }
 
 // Build with: javac -cp .:lib/* javaChat.java
-// Exceute the app in shell with: java -cp .:lib/* learn.javachatapp.javaChat
+// Exceute the app in shell with: java -cp .:lib/* javaChat
 
 /* Transient errors to handle
 
