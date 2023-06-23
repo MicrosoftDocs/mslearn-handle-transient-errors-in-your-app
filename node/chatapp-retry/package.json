@@ -19,7 +19,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "mongoose": "^5.4.14",
+    "mongoose": "^5.13.19",
     "socket.io": "^2.2.0",
     "system-sleep": "^1.3.6"
   }
